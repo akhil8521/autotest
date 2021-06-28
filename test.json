@@ -1,0 +1,110 @@
+{
+  "Name": "test",
+  "CreationDate": "2021-6-29",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://stackoverflow.com/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Products",
+      "Value": "",
+      "Targets": [
+        "linkText=Products",
+        "xpath=/html/body/header/div/ol/li[2]/a",
+        "xpath=//div/ol/li[2]/a",
+        "css=body > header > div > ol.list-reset.grid.gs4 > li:nth-child(2) > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=//*[@id=\"products-popover\"]/ol/li/a",
+      "Value": "",
+      "Targets": [
+        "linkText= ",
+        "xpath=//*[@id=\"products-popover\"]/ol/li/a",
+        "xpath=//div[2]/ol/li/a",
+        "css=#products-popover > ol > li:nth-child(1) > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "linkText=JOptionPane need to close multiple times?",
+      "Value": "",
+      "Targets": [
+        "linkText=JOptionPane need to close multiple times?",
+        "xpath=//*[@id=\"question-summary-68169611\"]/div[2]/h3/a",
+        "xpath=//div[2]/h3/a",
+        "css=#question-summary-68169611 > div.summary > h3 > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=Share",
+      "Value": "",
+      "Targets": [
+        "linkText=Share",
+        "xpath=//*[@id=\"question\"]/div[2]/div[2]/div[3]/div/div/div/div/div/a",
+        "xpath=//div[3]/div/div/div/div/div/a",
+        "css=#question > div.post-layout > div.postcell.post-layout--right > div.mb0 > div > div.grid--cell.mr16.fl1.w96 > div > div.grid.d-flex.gs8.s-anchors.s-anchors__muted.fw-wrap > div:nth-child(1) > a"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"se-share-sheet-0\"]/div[4]/button",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"se-share-sheet-0\"]/div[4]/button",
+        "xpath=//div[4]/button",
+        "css=#se-share-sheet-0 > div.d-flex.jc-space-between.ai-center.mbn4 > button"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "name=q",
+      "Value": "",
+      "Targets": [
+        "name=q",
+        "xpath=//*[@id=\"search\"]/div/input",
+        "xpath=//input[@name='q']",
+        "xpath=//input",
+        "css=#search > div > input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=q",
+      "Value": "https://stackoverflow.com/q/68169611",
+      "Targets": [
+        "name=q",
+        "xpath=//*[@id=\"search\"]/div/input",
+        "xpath=//input[@name='q']",
+        "xpath=//input",
+        "css=#search > div > input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=q",
+      "Value": "https://stackoverflow.com/q/68169611",
+      "Targets": [
+        "name=q",
+        "xpath=//*[@id=\"search\"]/div/input",
+        "xpath=//input[@name='q']",
+        "xpath=//input",
+        "css=#search > div > input"
+      ],
+      "Description": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "Name": "logout",
+  "CreationDate": "2021-6-29",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://myopcito.darwinbox.in/ms/vibe/home/posts/all",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"dasboard-bigheader\"]/header/div/div/div/i",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"dasboard-bigheader\"]/header/div/div/div/i",
+        "xpath=//i",
+        "css=#dasboard-bigheader > header > div > div.col-md-3.vcenter > div.dashboard-icon.pull-left.pr-8 > i"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"full-wrapper-dashboard-header\"]/div/div/div/div[7]/a/img",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"full-wrapper-dashboard-header\"]/div/div/div/div[7]/a/img",
+        "xpath=//div[7]/a/img",
+        "css=#full-wrapper-dashboard-header > div > div > div > div:nth-child(7) > a > img"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div[4]/ul/li/span/a",
+      "Value": "",
+      "Targets": [
+        "id=attendance-logger-widget",
+        "xpath=//*[@id=\"attendance-logger-widget\"]",
+        "xpath=//div[4]/ul/li/span/a",
+        "css=#attendance-logger-widget"
+      ],
+      "Description": ""
+    }
+  ]
+}
